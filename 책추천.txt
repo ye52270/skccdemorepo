@@ -1,0 +1,19 @@
+도움이 되는 책
+
+Do it!지옥에서 온 문서관리자 깃&깃허브 입문
+
+
+1) ssh -i ~/.ssh/azureadmin azureadmin@20.194.50.118
+
+2) apt-get update
+
+3) git hub 에서 repository 설치
+
+4) git clone https://github.com/ye52270/skccdemorepo.git
+
+private repository
+1) 암호는 안됨(암호로 private repository에 접근 불가)
+2) personal access key 로 접근 필요함
+
+gitub > Settings > Developer Settings > Personal Access Token > Generate new token
+admin:org_hook 에 체크 필요(github 에 내용이 바뀔경우 배포를 자동으로 하기 위해 체크가 필요 함)
